@@ -182,9 +182,9 @@ type()
 
 - Funções de Biblioteca
   Pra usar uma biblioteca você tem de importar ela, pra isso você coloca assim
+  
       ```c
-      #Biblioteca matematica
-      from math import sqrt  #aqui só importa a função sqrt da biblioteca math
+      #Biblioteca matematica from math import sqrt  #aqui só importa a função sqrt da biblioteca math
 
                 ou
 
