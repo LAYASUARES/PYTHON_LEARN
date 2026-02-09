@@ -1,4 +1,5 @@
 # Notes
+---
 
 - **Print** - Comando pra poder mostrar no cmd e/ou uma resposta de algo armazenado em um objeto.
   ```c
