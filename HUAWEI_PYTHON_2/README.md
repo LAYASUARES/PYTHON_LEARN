@@ -52,7 +52,7 @@ Nota: nessa construção **inline** o **else** é obrigatório colocar e não us
 
 ---
 
-**Classe Set** - **Conjuntos em Python → serve para criarmos conjuntos em Py**
+- **Classe Set** - **Conjuntos em Python → serve para criarmos conjuntos em Py**
 
 Na criação de conjuntos existem 2 modos:
 
