@@ -609,7 +609,7 @@ E para alterar um elemento existem somente colocar um por cima mesmo
   # resposta = False
 
   ```
-    - **insert** - inclusão de elementos na lista, que nem o append(mas ele só coloca no final da lista), já o insert da para colocar em qualquer posição da lista
+- **insert** - inclusão de elementos na lista, que nem o append(mas ele só coloca no final da lista), já o insert da para colocar em qualquer posição da lista
   ```c
   L = [11, 55, 88, 85, 45, 25, 85]
 
