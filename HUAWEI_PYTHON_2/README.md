@@ -56,7 +56,7 @@ Nota: nessa construção **inline** o **else** é obrigatório colocar e não us
 
 Na criação de conjuntos existem 2 modos:
 
-- 1ª Modo - Criar um conjunto com conteúdo, ou seja, ele nasce já contendo conteúdo
+  - 1ª Modo - Criar um conjunto com conteúdo, ou seja, ele nasce já contendo conteúdo
 
 ```c
 C = {15, 4, 56, 7, 58, 69}
@@ -88,7 +88,7 @@ print(C)
 {15, 4, 56, 7, 58, 69}
 ```
 
-- 2ª Modo - Criar um conjunto sem conteúdo, ou seja, um conjunto vazio
+  - 2ª Modo - Criar um conjunto sem conteúdo, ou seja, um conjunto vazio
 
 ```c
 C2 = set()

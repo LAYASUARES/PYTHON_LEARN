@@ -80,7 +80,7 @@
 
 ---
 
-- Ex de armazenamento de um valor em um objeto
+  - Ex de armazenamento de um valor em um objeto
   ```c
   qtde = 2
   puni = 5
@@ -92,7 +92,7 @@
 
 ---
 
-**Type** - comando que pode ser usado pra mostra a classe que foi armazenada em um objeto
+- **Type** - comando que pode ser usado pra mostra a classe que foi armazenada em um objeto
 
 ```c
 type()
@@ -143,7 +143,7 @@ type()
 
 ---
 
-- Função Length - ela mede o comprimento de um objeto composto.
+- **Função Length** - ela mede o comprimento de um objeto composto.
   ```c
   d = len('exemplo')
 
@@ -158,7 +158,7 @@ type()
 
 ---
 
-- Função ID - está função ela pode ser usada para descobrirmos o id do objeto, ou seja, identificador numérico que vai funcionar nos bastidores.
+- **Função ID** - está função ela pode ser usada para descobrirmos o id do objeto, ou seja, identificador numérico que vai funcionar nos bastidores.
   Esse id é usado pelo py para as suas tarefas internas, sendo ele um numero inteiro que é gerado automaticamente pelo py. E o desenvolvedor não tem controle sobre como ele será ou é.
   ```c
   obj1 = 10
@@ -180,11 +180,11 @@ type()
 
 ---
 
-- Funções de Biblioteca
-  Pra usar uma biblioteca você tem de importar ela, pra isso você coloca assim
+- **Funções de Biblioteca**
+Pra usar uma biblioteca você tem de importar ela, pra isso você coloca assim
   
       ```c
-      #Biblioteca matematica from math import sqrt  #aqui só importa a função sqrt da biblioteca math
+      #Biblioteca matematica from math import sqrt #aqui só importa a função sqrt da biblioteca math
 
                 ou
 
@@ -215,7 +215,7 @@ type()
 
 ---
 
-- Função Input - Entrada de dados.
+- **Função Input** - Entrada de dados.
   Tem como objetivo fazer a leitura do teclado e o que for digitado ela retorna pra ser carregado em um objeto que nós especificamos aqui numa operação de atribuição.
   ```c
   A = input() # inicialmete só assim não faz nada temos de digitar algum valor
@@ -273,7 +273,7 @@ type()
 
 ---
 
-- Condicional - comando que é usado e existe pois por x’s em algoritmo vamos ter ou remos precisar de vais opções do que vai acontecer ou não.
+- **Condicional** - comando que é usado e existe pois por x’s em algoritmo vamos ter ou remos precisar de vais opções do que vai acontecer ou não.
 
   ```c
   A = 0
@@ -299,13 +299,13 @@ type()
   Tipos de condições ou operadores de comparação que pode ser usado:
 
   - == igualdade
-  - <> ou ! = - Verificar se dois valores não são iguais
-  - > - **Maior que: Comparar grandezas numéricas**
-  - < - **Menor que: Comparar grandezas numéricas**
-  - ≥ - **Maior ou igual a: Comparar grandezas numéricas, incluindo o próprio valor limite**
-  - ≤ - **Menor ou igual a: Comparar grandezas numéricas, incluindo o próprio valor limite**
+  - '<>' ou '!=' - **Verificar se dois valores não são iguais**
+  - '>' - **Maior que: Comparar grandezas numéricas**
+  - '<' - **Menor que: Comparar grandezas numéricas**
+  - '≥' - **Maior ou igual a: Comparar grandezas numéricas, incluindo o próprio valor limite**
+  - '≤' - **Menor ou igual a: Comparar grandezas numéricas, incluindo o próprio valor limite**
 
-- Condições simples - tipo A > B = True or False
+  - Condições simples - tipo A > B = True or False
   Condições compostas - tipo A > 0 and B < 0 = True or False
   A > 0 or B < 0 = True or False
       ## 1. Tabela de Verdade para `and` (E)
@@ -375,11 +375,11 @@ Nota: o **AND** é prioridade de execução entre ele e o **OR,** ou se tiver pa
 
 ---
 
-- Comando de Repetição - comando usado pra podermos repetir um determinado número de vezes uma sequencia de comandos do programa, esse processo chamamos de laço ou loop.
+- **Comando de Repetição** - comando usado pra podermos repetir um determinado número de vezes uma sequencia de comandos do programa, esse processo chamamos de laço ou loop.
 
   Aonde usamos a questão de Incremento e decremento
 
-  Incremento
+  - Incremento
 
   ```c
   A = 10
@@ -391,7 +391,7 @@ Nota: o **AND** é prioridade de execução entre ele e o **OR,** ou se tiver pa
   A += P # isso equivale a A = A + P, resultado 14
   ```
 
-  Decremento
+  - Decremento
 
   ```c
   A = 10
@@ -444,7 +444,7 @@ Nota: o **AND** é prioridade de execução entre ele e o **OR,** ou se tiver pa
 
   Nota: Tendo em conta o comando a condição é colocada, o programa só irá parar assim que o valor da condição mudar, ou seja, enquanto os valores que aparecerem forem ≤ a 4 ele são verdadeiros e o programa continua, se for fora dessa condição o valor é falso enquanto logo no primeiro falso o programa para.
 
-- Comando Continue - no Python serve para **pular o restante do código dentro de um loop** e passar direto para a próxima repetição (iteração).
+  - **Comando Continue** - no Python serve para **pular o restante do código dentro de um loop** e passar direto para a próxima repetição (iteração).
 
   Ele não encerra o loop (como o `break`), apenas ignora o que vem depois dele naquele ciclo específico.
 
@@ -457,7 +457,7 @@ Nota: o **AND** é prioridade de execução entre ele e o **OR,** ou se tiver pa
 
   **Resultado:**`0, 1, 3, 4` (o número 2 foi ignorado).
 
-- Comando Break - serve para **interromper e sair do loop imediatamente**, não importa quantas repetições ainda faltavam.
+  - **Comando Break** - serve para **interromper e sair do loop imediatamente**, não importa quantas repetições ainda faltavam.
   Enquanto o `continue` apenas pula uma etapa, o `break` "quebra" a estrutura e encerra a execução do laço de repetição.
   ```c
   for i in range(10):
@@ -474,7 +474,7 @@ Nota: o **AND** é prioridade de execução entre ele e o **OR,** ou se tiver pa
 
 ---
 
-- Try, Except - tipo de construção que existe, py e outras linguagens para tratar erros que eventualmente possam acontecer.
+- **Try, Except** - tipo de construção que existe, py e outras linguagens para tratar erros que eventualmente possam acontecer.
   ```c
   A = int(input('Digite A: '))
   B = int(input('Digite B: '))
@@ -489,7 +489,7 @@ Nota: o **AND** é prioridade de execução entre ele e o **OR,** ou se tiver pa
 
 ---
 
-- Lista - Classe - uma coleção de objetos
+- **Lista - Classe** - uma coleção de objetos
   Ele é declarado da seguinte forma:
   ```c
   L = []  #Lista vazio
@@ -507,7 +507,7 @@ Nota: o **AND** é prioridade de execução entre ele e o **OR,** ou se tiver pa
   L = [44, 17, 15, 36]
        0    1   2   3
   ```
-- Listas - Classe list com ela criamos objetos compostos, ou seja, um objeto que contem outros objetos dentro dele
+  - Listas - Classe list com ela criamos objetos compostos, ou seja, um objeto que contem outros objetos dentro dele
 
   ```c
   L = [11, 55, 88, 86, 45, 25, 85]
@@ -533,14 +533,14 @@ Nota: o **AND** é prioridade de execução entre ele e o **OR,** ou se tiver pa
   print(L[i* 2]) # resposta será 85
   ```
 
-- para adicionar um novo elemento a lista colocamos o comando append
+  - para adicionar um novo elemento a lista colocamos o comando append
   ```c
   L.append(71)
 
   # respota será
   # [11, 55, 88, 86, 45, 25, 85, 71]
   ```
-- E pra remover a função del
+  - E pra remover a função del
   ```c
   del L[6]
 
@@ -551,7 +551,7 @@ Nota: o **AND** é prioridade de execução entre ele e o **OR,** ou se tiver pa
 
 E para alterar um elemento existem somente colocar um por cima mesmo
 
-- Fatiamento - Podemos fazer o fatiamento pra pegar somente determinadas partes da lista somente
+  - Fatiamento - Podemos fazer o fatiamento pra pegar somente determinadas partes da lista somente
 
   ```c
   L = [11, 55, 88, 86, 45, 25, 85]
@@ -568,11 +568,11 @@ E para alterar um elemento existem somente colocar um por cima mesmo
   # aqui armazena amesma lista com ID diferente
   ```
 
-- Métodos na Classe List
-  - append -para colocar elementos a uma lista, sempre vao ser colocados no final da lista. L.append()
-  - clear - Para retirar todos elementos da lista . L.clear()
-  - copy - retorna uma copia da lista, tem de ser colocado em outro objeto. A = L.copy()
-  - count - Conta quantos elementos de um determinado valor existe dentro de uma lista. L.count()
+  - Métodos na Classe List
+    - **append** -para colocar elementos a uma lista, sempre vao ser colocados no final da lista. L.append()
+    - **clear** - Para retirar todos elementos da lista . L.clear()
+    - **copy** - retorna uma copia da lista, tem de ser colocado em outro objeto. A = L.copy()
+    - **count** - Conta quantos elementos de um determinado valor existe dentro de uma lista. L.count()
   ```c
   L = [11, 55, 88, 85, 45, 25, 85]
 
@@ -582,7 +582,7 @@ E para alterar um elemento existem somente colocar um por cima mesmo
   L.count(85)
   # resposta = 2, pois tem 2 desses numeros na lista
   ```
-  - extend - usada quando tem duas listas, ele ajuda a extender os elementos de uma lista para outra, ou seja, ele pega os elementos de uma lista e coloca no outro sem que a lista adicional se altere
+    - **extend** - usada quando tem duas listas, ele ajuda a extender os elementos de uma lista para outra, ou seja, ele pega os elementos de uma lista e coloca no outro sem que a lista adicional se altere
   ```c
   L = [11, 55, 88, 85, 45, 25, 85]
   A = [1, 2, 3, 4]
@@ -590,14 +590,14 @@ E para alterar um elemento existem somente colocar um por cima mesmo
   L.extend(A)
   # resposta = [11, 55, 88, 85, 45, 25, 85, 1, 2, 3, 4]
   ```
-  - index - ele retorna o índice de um determinado valor, ou seja, a sua posição na lista. L.index() - no parenteses coloca o numero pra ver se está na lista
+    - **index** - ele retorna o índice de um determinado valor, ou seja, a sua posição na lista. L.index() - no parenteses coloca o numero pra ver se está na lista
   ```c
   L = [11, 55, 88, 85, 45, 25, 85]
 
   L.index(55)
   # resposta = 2, pois esta a posição 2
   ```
-  Nota: um cuidado com index, é que não sabemos dos elementos que estão na lista, pois se tentarmos um valor que não esta na lista vai dar erro, ou seja, não podemos usar o index quando um elemento não esta na lista
+  **Nota:** um cuidado com index, é que não sabemos dos elementos que estão na lista, pois se tentarmos um valor que não esta na lista vai dar erro, ou seja, não podemos usar o index quando um elemento não esta na lista
   Ai surge a questão como podemos ver se o ele elemento esta na lista ou? não pra isso usamos o operador in
   ```c
   L = [11, 55, 88, 85, 45, 25, 85]
@@ -609,7 +609,7 @@ E para alterar um elemento existem somente colocar um por cima mesmo
   # resposta = False
 
   ```
-  - insert - inclusão de elementos na lista, que nem o append(mas ele só coloca no final da lista), já o insert da para colocar em qualquer posição da lista
+    - **insert** - inclusão de elementos na lista, que nem o append(mas ele só coloca no final da lista), já o insert da para colocar em qualquer posição da lista
   ```c
   L = [11, 55, 88, 85, 45, 25, 85]
 
@@ -618,14 +618,14 @@ E para alterar um elemento existem somente colocar um por cima mesmo
 
   ```
   Aqui se tentar colocarmos um valor em alguma posição que seja maior na lista ele simplesmente colocará no final da lista como emum append
-  - pop - ele remove um elemento da lista, temos de colocar oposição e tem de ser armazenado.A = L.pop(), e por padrao ele retira sempre o ultimo se não especificarmos a posição
-  - remove - ele remove pelo valor, ou seja, quado já sabemos o valor. L.remove()
-  - reserve - ele inverte a lista literalmente. L.reserve()
-  - sort - ele faz a classificação da lista de forma crescente, ou seja, coloca organizada de forma crescente. L.sort()
+    - **pop** - ele remove um elemento da lista, temos de colocar oposição e tem de ser armazenado.A = L.pop(), e por padrao ele retira sempre o ultimo se não especificarmos a posição
+    - **remove** - ele remove pelo valor, ou seja, quado já sabemos o valor. L.remove()
+    - **reserve** - ele inverte a lista literalmente. L.reserve()
+    - **sort** - ele faz a classificação da lista de forma crescente, ou seja, coloca organizada de forma crescente. L.sort()
 
 ---
 
-- Comando For - comando usado pra criação de laços de repetição de uso especifico, chamamos de iteradores.
+- **Comando For** - comando usado pra criação de laços de repetição de uso especifico, chamamos de iteradores.
   Ele faz um processo de repetição e em cada repetição o objeto de controle recebe um elemento de lista array, etc e pode usar esse elemento para todo e qualquer processamento que se faça necessario
   ```c
   L = [11, 55, 88, 85, 45, 25, 85]
