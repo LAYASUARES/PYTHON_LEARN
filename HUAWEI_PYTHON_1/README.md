@@ -582,7 +582,7 @@ E para alterar um elemento existem somente colocar um por cima mesmo
   L.count(85)
   # resposta = 2, pois tem 2 desses numeros na lista
   ```
-    - **extend** - usada quando tem duas listas, ele ajuda a extender os elementos de uma lista para outra, ou seja, ele pega os elementos de uma lista e coloca no outro sem que a lista adicional se altere
+  - **extend** - usada quando tem duas listas, ele ajuda a extender os elementos de uma lista para outra, ou seja, ele pega os elementos de uma lista e coloca no outro sem que a lista adicional se altere
   ```c
   L = [11, 55, 88, 85, 45, 25, 85]
   A = [1, 2, 3, 4]
@@ -590,7 +590,7 @@ E para alterar um elemento existem somente colocar um por cima mesmo
   L.extend(A)
   # resposta = [11, 55, 88, 85, 45, 25, 85, 1, 2, 3, 4]
   ```
-    - **index** - ele retorna o índice de um determinado valor, ou seja, a sua posição na lista. L.index() - no parenteses coloca o numero pra ver se está na lista
+  - **index** - ele retorna o índice de um determinado valor, ou seja, a sua posição na lista. L.index() - no parenteses coloca o numero pra ver se está na lista
   ```c
   L = [11, 55, 88, 85, 45, 25, 85]
 
