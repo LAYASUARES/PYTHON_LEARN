@@ -52,3 +52,101 @@ Nota: nessa construção **inline** o **else** é obrigatório colocar e não us
 
 ---
 
+**Classe Set** - **Conjuntos em Python → serve para criarmos conjuntos em Py**
+
+Na criação de conjuntos existem 2 modos:
+
+- 1ª Modo - Criar um conjunto com conteúdo, ou seja, ele nasce já contendo conteúdo
+
+```c
+C = {15, 4, 56, 7, 58, 69}
+type(C)
+
+#Resposta do type
+<classe 'set'>
+
+C3 = set( 4, 67, 59, 2) #Se colocar assim, vai dar sempre erro, pois assim com set(), aceita somente um argumento
+C3 = set(2)  #Com um argumento 
+
+#Solução pra isso para poder usar o set() inves de '{}'(um par de chaves)
+C3 = set( [4, 67, 59, 2] )  #colocar uma lista dos varios elementos
+
+OU
+
+C3 = set( (4, 67, 59, 2) ) #colocar uma tupla dos varios eementos que fazem parte do conjunto
+
+```
+
+O que caracteriza um conjunto são além do “{}”(par de chaves), ele também não pode ter números repetidos, pois se tiver 2 e quisermos ver o que tem nesse conjunto ele só apresentará somente um numero mesmo que o numero esteja repetido duas vezes.
+
+```c
+C = {15, 4, 56, 7, 58, 69, 4}
+
+print(C)
+
+#Resposta do print
+{15, 4, 56, 7, 58, 69}
+```
+
+- 2ª Modo - Criar um conjunto sem conteúdo, ou seja, um conjunto vazio
+
+```c
+C2 = set()
+type(C2)
+
+#Resposta do type
+<classe 'set'>
+
+#Se colocar assim, não vai dar certo
+C3 = {}  #Pois assim não estamos criando um conjunto e sim outro tipo de objeto
+type(C3)
+
+#Resposta do type
+<classe 'dict> classe dicionario
+```
+
+**Resumo**: Formas de criar conjuntos
+
+```c
+#Conjunto com Dados
+C1 = {1, 2, 3, 4}
+
+#Conjunto com Dados com Tuplas ou lista
+C2 = set( (1, 2, 3, 4) ) #Tupla
+C2 = set( [1, 2, 3, 4] ) #Lista
+
+#Conjunto Vazio (Sem dados)
+C3 = set()
+```
+
+**Conjunto de outros tipo de elementos**
+
+```c
+texto = 'qualquer texto'
+
+C1 = set(texto)
+
+#Resposta de C1
+{ 'r', 'e', 'l', 'x', 'q','u', 't', '', 'o'}  #O conjunto criado é uma coleção de caracteres que são oriundos do texto que foi usado para construção,isso sempre repetição de letras
+
+```
+
+```c
+tupla = (26, 73, 41)
+
+C2 = set(tupla)
+
+#Resposta de C2
+{73, 26, 41}
+```
+
+```c
+lista = [ 32, 34]
+
+C3 = set(lista)
+
+#Resposta de C3
+{32, 34}
+```
+
+---
