@@ -1,0 +1,19 @@
+#Meu racionio e input de pedidodas infromações e um for i in c3 que seria meu dicionatrio vazio colocar as info no c3(dicionario), e depoisum print de tudo mas estou perdido na parte do for
+
+
+1. O Erro de Raciocínio: Onde o for se perdeu?
+Quando você diz for i in c3 e c3 é um dicionário vazio, o Python olha para ele e diz: "Ué, não tem nada aqui dentro para eu percorrer!".
+O for serve para percorrer algo que já tem itens (como uma lista de 1 a 10 ou uma lista de nomes).
+Para armazenar vários dados, você precisa de uma Lista (a sua pasta de arquivos) e, para cada pessoa, um Dicionário (a ficha individual).
+
+2. O Caminho das Pedras (A Lógica)
+Para organizar os dados de, digamos, 3 pessoas, o seu plano deve ser este:
+Crie uma lista vazia no início (ex: banco_de_dados = []). Ela vai guardar todas as fichas.
+Use o for para definir QUANTAS vezes você quer pedir as informações. Se você quer 3 pessoas, use for i in range(3):.
+
+3. DENTRO do loop, você faz a mágica:
+Cria um dicionário temporário (a ficha daquela pessoa específica).
+Usa o input para preencher as chaves nome, idade e cidade.
+O Grande Passo: Pega esse dicionário e "joga" (faz um .append()) dentro da sua lista principal.
+
+Dessa forma, a cada volta do loop, você cria uma ficha nova e guarda na pasta.

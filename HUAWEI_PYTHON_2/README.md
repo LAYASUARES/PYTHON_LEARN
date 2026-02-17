@@ -150,3 +150,21 @@ C3 = set(lista)
 ```
 
 ---
+
+- **Hash** é uma forma de criar uma identificação para um objeto, baseado no conteudo do objeto
+
+```c
+S1 = 'abcd'
+hash(S1)    #o Hash aqui é um algortimo que a partir do conteudo acima ele irá criar um numero inteiro
+
+#Resposta do Hash
+-65849895614
+
+#Se colocarmos o valor emoutro objeto a resposta de numerario será a mesma
+```
+
+**Nota:** Todo o objeto Mutável, não tem hash, pois não tem como calcular o hash de objetos mutáveis, e todo objeto imutável tem hash.
+
+- É a existência do hash que define se um elemento pode pertencer a um conjunto.
+- O hash de um numero inteiro é o proprio numero, mas um monte de numero tem um hash diferente
+- Sabes a parte de que um set(), não parece 2 números iguais isso é por causa, ou pq que um conjunto não pode conter um inteiro e um float de mesma magnitude, é por causa do calculo do numero hash, que é o que determina se um objeto estará no conjunto ou não.
