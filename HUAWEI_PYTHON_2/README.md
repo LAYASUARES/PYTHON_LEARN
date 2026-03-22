@@ -248,6 +248,8 @@ Temos de saber o elemento se esta lá antes de remove-lo
 Classe dict - Muito parecido com uma lista, a diferença é que a identificação de um elemento dentro d uma dicionário não será feito por um índice numérico como em uma lista(Ex na imagem),mas sim por uma valor chave que nós escolhemos o que será (pode ser um texto, numero, pode ser qualquer objeto de classe que tenha Hash, ou seja, que seja imutável(tuplas, etc)).
 
 ![image.png](attachment:009e535c-9bc8-454c-9189-e15843cc8d3a:image.png)
+<img width="616" height="269" alt="image" src="https://github.com/user-attachments/assets/e5de42ab-a8fd-42ba-9625-405ae7f80338" />
+
 
 ```c
 #Para criar ele tem de ser assim
