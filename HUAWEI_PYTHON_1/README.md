@@ -569,10 +569,10 @@ E para alterar um elemento existem somente colocar um por cima mesmo
   ```
 
   - Métodos na Classe List
-    - **append** -para colocar elementos a uma lista, sempre vao ser colocados no final da lista. L.append()
-    - **clear** - Para retirar todos elementos da lista . L.clear()
-    - **copy** - retorna uma copia da lista, tem de ser colocado em outro objeto. A = L.copy()
-    - **count** - Conta quantos elementos de um determinado valor existe dentro de uma lista. L.count()
+    - **append** -para colocar elementos a uma lista, sempre vao ser colocados no final da lista. **L.append()**
+    - **clear** - Para retirar todos elementos da lista . **L.clear()**
+    - **copy** - retorna uma copia da lista, tem de ser colocado em outro objeto. A = **L.copy()**
+    - **count** - Conta quantos elementos de um determinado valor existe dentro de uma lista. **L.count()**
   ```c
   L = [11, 55, 88, 85, 45, 25, 85]
 
